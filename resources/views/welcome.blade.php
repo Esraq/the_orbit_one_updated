@@ -80,10 +80,12 @@
       </div>
 
       <div class="intro-info">
-        <h2>
+        <h2> <i>
           Orbit Media Solutions:
           Elevating Your Digital
           Presence to New Heights</h2>
+
+</i>
         <div>
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
           <a href="#services" class="btn-services scrollto">Our Services</a>

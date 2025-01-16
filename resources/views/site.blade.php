@@ -42,10 +42,10 @@
       </div>
 
       <div class="intro-info">
-        <h3> 
+        <h2> 
           Orbit Media Solutions:
           Elevating Your Digital
-          Presence to New Heights</h3>
+          Presence to New Heights</h2>
 
 
         <div>

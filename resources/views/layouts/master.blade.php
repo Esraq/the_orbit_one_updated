@@ -16,28 +16,53 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{url('/lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="public/lib/animate/animate.min.css" rel="stylesheet">
-  <link href="public/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="public/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="public/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="{{url('/lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+  <link href="{{url('/lib/animate/animate.min.css')}}" rel="stylesheet">
+  <link href="{{url('/lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+  <link href="{{url('/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{url('/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="public/css/style.css" rel="stylesheet">
+  <link href="{{url('/css/style.css')}}" rel="stylesheet">
 
 
-  <!-- =======================================================
-    Theme Name: NewBiz
-    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+ 
 </head>
 
 <body>
+
+
+
+<header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="{{asset('/img/logo.png')}}" alt="" height="270px" width="100px" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#upcoming_service">Upcoming</a></li>
+         
+          
+             
+          
+         
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
 
   <!--==========================
   Header
@@ -112,22 +137,22 @@
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->
-  <script src="public/lib/jquery/jquery.min.js"></script>
-  <script src="public/lib/jquery/jquery-migrate.min.js"></script>
-  <script src="public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="public/lib/easing/easing.min.js"></script>
-  <script src="public/lib/mobile-nav/mobile-nav.js"></script>
-  <script src="public/lib/wow/wow.min.js"></script>
-  <script src="public/lib/waypoints/waypoints.min.js"></script>
-  <script src="public/lib/counterup/counterup.min.js"></script>
-  <script src="public/lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="public/lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="public/lib/lightbox/js/lightbox.min.js"></script>
+  <script src="{{url('/lib/jquery/jquery.min.js')}}"></script>
+  <script src="{{url('/lib/jquery/jquery-migrate.min.js')}}"></script>
+  <script src="{{url('/lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url('/lib/easing/easing.min.js')}}"></script>
+  <script src="{{url('/lib/mobile-nav/mobile-nav.js')}}"></script>
+  <script src="{{url('/lib/wow/wow.min.js')}}"></script>
+  <script src="{{url('/lib/waypoints/waypoints.min.js')}}"></script>
+  <script src="{{url('/lib/counterup/counterup.min.js')}}"></script>
+  <script src="{{url('/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+  <script src="{{url('/lib/isotope/isotope.pkgd.min.js')}}"></script>
+  <script src="{{url('/lib/lightbox/js/lightbox.min.js')}}"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="public/contactform/contactform.js"></script>
+  <script src="{{url('/contactform/contactform.js')}}"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="public/js/main.js"></script>
+  <script src="{{url('/js/main.js')}}"></script>
 
 </body>
 </html>

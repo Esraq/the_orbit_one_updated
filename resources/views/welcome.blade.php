@@ -2,30 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NewBiz Bootstrap Template</title>
+  <title>Orbit Media</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+   <!-- Favicons -->
+   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="public/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="public/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="public/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="public/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="public/css/style.css" rel="stylesheet">
+
 
   <!-- =======================================================
     Theme Name: NewBiz
@@ -46,7 +48,7 @@
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" height="270px" width="100px" class="img-fluid"></a>
+        <a href="#intro" class="scrollto"><img src="public/img/logo.png" alt="" height="270px" width="100px" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -74,7 +76,7 @@
     <div class="container">
 
       <div class="intro-img">
-        <img src="img/intro-img.svg" alt="" class="img-fluid">
+        <img src="public/img/intro-img.svg" alt="" class="img-fluid">
       </div>
 
       <div class="intro-info">
@@ -132,13 +134,13 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="">
+            <img src="public/img/about-img.svg" class="img-fluid" alt="">
           </div>
         </div>
 
         <div class="row about-extra">
           <div class="col-lg-6 wow fadeInUp">
-            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+            <img src="public/img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
             <h4>Why Orbit.</h4>
@@ -153,7 +155,7 @@ The process starts with a comprehensive evaluation of your current digital prese
 
         <div class="row about-extra">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+            <img src="public/img/about-extra-2.svg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
@@ -338,7 +340,7 @@ The process starts with a comprehensive evaluation of your current digital prese
             <div class="col-md-4 mb-3">
               <div class="card" style="border: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px;">
                 <div class="featured" style="position: absolute; top: 10px; left: 10px; background-color: #007bff; color: white; padding: 5px 10px; border-radius: 5px; font-size: 0.9rem; font-weight: bold;">Upcoming</div>
-                <img src="img/erp.jpg" height="250px" width="100px" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <img src="public/img/erp.jpg" height="250px" width="100px" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
                 <div class="card-body">
                   <p class="card-text text-muted">May 5 - May 8, 2025</p>
                   <h5 class="card-title">ERP Software</h5>
@@ -353,7 +355,7 @@ The process starts with a comprehensive evaluation of your current digital prese
             <div class="col-md-4">
               <div class="card" style="border: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px;">
                 <div class="featured" style="position: absolute; top: 10px; left: 10px; background-color: #007bff; color: white; padding: 5px 10px; border-radius: 5px; font-size: 0.9rem; font-weight: bold;">Upcoming</div>
-                <img src="img/video-editing.jpg" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <img src="public/img/video-editing.jpg" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
                 <div class="card-body">
                   <p class="card-text text-muted">November 3 - November 7, 2025</p>
                   <h5 class="card-title">Virtual Reality (VR) Experiences</h5>
@@ -366,7 +368,7 @@ The process starts with a comprehensive evaluation of your current digital prese
             <div class="col-md-4 mb-3">
               <div class="card" style="border: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px;">
                 <div class="featured" style="position: absolute; top: 10px; left: 10px; background-color: #007bff; color: white; padding: 5px 10px; border-radius: 5px; font-size: 0.9rem; font-weight: bold;">Upcoming</div>
-                <img src="img/web-design-development.jpg" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <img src="public/img/web-design-development.jpg" alt="Event" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
                 <div class="card-body">
                   <p class="card-text text-muted">November 17 - November 21, 2025</p>
                   <h5 class="card-title">Mobile App Development for Niche Markets</h5>
@@ -536,22 +538,22 @@ The process starts with a comprehensive evaluation of your current digital prese
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="public/lib/jquery/jquery.min.js"></script>
+  <script src="public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/lib/easing/easing.min.js"></script>
+  <script src="public/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="public/lib/wow/wow.min.js"></script>
+  <script src="public/lib/waypoints/waypoints.min.js"></script>
+  <script src="public/lib/counterup/counterup.min.js"></script>
+  <script src="public/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="public/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="public/lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="public/contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="public/js/main.js"></script>
 
 </body>
 </html>
